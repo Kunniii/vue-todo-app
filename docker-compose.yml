@@ -2,7 +2,7 @@ version: '3.9'
 services:
   vue-todo:
     image: node:17-alpine
-    container_name: vue-todo
+    container_name: vue-todo-1
     build: .
     ports:
       - 8080:8080

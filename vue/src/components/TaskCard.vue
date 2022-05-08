@@ -106,15 +106,17 @@ button {
     border: solid 1px #2c3e50;
     border-radius: 0.2em;
     background: #fff;
+    transition: all 500ms ease;
 }
 
 button:hover {
+    transition: all 500ms ease;
     box-shadow: 3px 3px 0px 0px #000000 !important;
 }
 
 button:active {
+    transition: all 500ms ease;
     box-shadow: inset 3px 3px 5px -3px #000000 !important;
-
 }
 
 button.red {
