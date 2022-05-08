@@ -5,7 +5,7 @@ module.exports = defineConfig({
     config
       .plugin('html')
       .tap(args => {
-        args[0].title = "My Vue App";
+        args[0].title = "Vue Todo App";
         return args;
       })
   }
